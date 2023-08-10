@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>SISMPE - Zonas Seguras</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="style/main.css" rel="stylesheet">
+	<link href="style/safe-zones.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<!-- HEADER -->
+	<header>
+		<nav class="navbar">
+			<h1 class="title">
+				<a href="index.html" class="navbar__link navbar__link--link-home">SISMPE</a>
+			</h1>
+			<ul class="navbar__list">
+				<li class="navbar__item"><a href="safe-zones.html" class="navbar__link">Zonas Seguras</a></li>
+				<li class="navbar__item"><a href="volunteering.html" class="navbar__link">Voluntariado</a></li>
+				<li class="navbar__item"><a href="gathering-center.html" class="navbar__link">Centros de acopio</a></li>
+				<li class="navbar__item"><a href="#" class="navbar__link">(0)</a></li>
+			</ul>
+			<div class="hamburger">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+		</nav>
+	</header>
+
+	<!-- CONTENT -->
+	<main>
+		<section class="search">
+			<h1 class="search__title">Conoce las zonas seguras cerca de ti!</h1>
+			<nav class="search__nav">
+				<ul class="search__nav-list">
+					<li class="search__nav-item"><a href="#" class="search__nav-link">TODO</a></li>
+					<li class="search__nav-item"><a href="#" class="search__nav-link">LOCALES</a></li>
+					<li class="search__nav-item"><a href="#" class="search__nav-link">COLEGIOS</a></li>
+				</ul>
+			</nav>
+			<input class="search__input" type="text" placeholder="Busca tu lugar..." />
+			<section class="search__result">
+				<article class="place">
+					<img src="img/safe-zones/place-1.png" class="place__image" alt="Algun lugar" />
+					<div class="place__info">
+						<h3 class="place__title">Algun lugar</h3>
+						<p class="place__distance">D Distancia KM</p>
+					</div>
+				</article>
+				<article class="place">
+					<img src="img/safe-zones/place-2.png" class="place__image" alt="Algun lugar" />
+					<div class="place__info">
+						<h3 class="place__title">Algun lugar</h3>
+						<p class="place__distance">D Distancia KM</p>
+					</div>
+				</article>
+			</section>
+		</section>
+		<div class="map">
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62419.27815855877!2d-77.07540813005502!3d-12.098121814380901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c842bd2342fb%3A0x7e3183f45f461207!2sSan%20Isidro!5e0!3m2!1ses-419!2spe!4v1691623179024!5m2!1ses-419!2spe"
+				width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+				referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+	</main>
+
+	<!-- FOOTER -->
+	<footer class="footer">
+		<p class="footer__copy">&copy; Copyright SISMPE - 2023</p>
+	</footer>
+	<script src="js/navbar.js"></script>
+</body>
+
+</html>
