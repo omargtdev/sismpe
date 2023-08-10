@@ -41,6 +41,14 @@ h4 {
 
 .title {
 	margin: 0;
+	position: relative;
+}
+
+.logo {
+	width: 150px;
+	position: absolute;
+	top: -70px;
+	right: -120px;
 }
 
 .hamburger {
@@ -62,7 +70,7 @@ h4 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 1rem 1.5rem;
+	padding: 1.8rem 1.5rem;
 }
 
 .navbar__list {
@@ -95,7 +103,7 @@ h4 {
 	.navbar__list {
 		position: fixed;
 		left: -120%;
-		top: 3.5rem;
+		top: 4.5rem;
 		flex-direction: column;
 		background-color: #fff;
 		width: 100%;
