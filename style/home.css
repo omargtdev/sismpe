@@ -1,0 +1,36 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    row-gap: 2rem;
+}
+
+.about__img {
+    max-width: 300px;
+}
+
+.about__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.5rem;
+    text-align: justify;
+}
+
+.about__title,
+.about__text{
+    margin-top: 0;
+    margin-bottom: 0;    
+}
+
+.about__title {
+    color: var(--color-accentv1);    
+}
+
+.about__text--important {
+    font-size: 1.5rem;
+}
