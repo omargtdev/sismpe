@@ -6,6 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="style/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/form.css">
 </head>
 
 <body>
@@ -32,6 +33,29 @@
 
 	<!-- CONTENT -->
 	<main>
+        <div class="form-container">
+            <form class="form">
+                <h1 class="form__title">Registrate</h1>
+                <div class="form__login">¿Ya te registraste? <a href="#">Ingresa aquí</a></div> 
+                <div class="form__group">
+                    <label class="form__label" for="fullname">Nombre Completo</label>
+                    <input class="form__input" id="fullname" type="text" placeholder="Nombre completo..."/>
+                </div>
+                <div class="form__group">
+                    <label class="form__label" for="email">Email</label>
+                    <input class="form__input" id="email" type="email" placeholder="Email..."/>
+                </div>
+                <div class="form__group">
+                    <label class="form__label" for="dni">DNI</label>
+                    <input class="form__input" id="dni" type="text" placeholder="DNI..."/>
+                </div>
+                <div class="form__group">
+                    <label class="form__label" for="password">Crea una contraseña</label>
+                    <input class="form__input" id="password" type="password" placeholder="Contraseña..."/>
+                </div>
+                <input type="submit" class="form__input form__input--submit" value="Ingresar">
+            </form>
+        </div>
 	</main>
 
 	<!-- FOOTER -->
