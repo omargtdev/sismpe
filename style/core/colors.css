@@ -1,0 +1,18 @@
+:root {
+	--hue: 30;
+	--hue-complement: calc(var(--hue) + 180);
+	--hue-right-analogous: calc(var(--hue) + 30);
+	--hue-left-analogous: calc(var(--hue) - 30);
+
+	--color-primary: hsl(var(--hue) 25% 95%);
+	--color-primary-dark-500: hsl(var(--hue) 20% 85%);
+	--color-primary-dark-600: hsl(var(--hue) 20% 75%);
+	--color-secondary: hsl(var(--hue-complement) 5% 25%);
+	--color-secondary-light-500: hsl(var(--hue-complement) 5% 30%);
+	--color-secondary-light-900: hsl(var(--hue-complement) 5% 95%);
+	--color-secondary-dark-500: hsl(var(--hue-complement) 5% 20%);
+	--color-accentv1: hsl(var(--hue-left-analogous) 40% 40%);
+	--color-accentv1-light-900: hsl(var(--hue-left-analogous) 40% 95%);
+	--color-accentv2: hsl(var(--hue-right-analogous) 40% 40%);
+	--color-accentv2-light-900: hsl(var(--hue-right-analogous) 40% 90%);
+}
